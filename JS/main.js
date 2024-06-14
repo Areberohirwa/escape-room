@@ -103,7 +103,7 @@ escapeRoomSecondLockerKey.addEventListener('click', function () {
 })
 
 escapeRoomDoor.addEventListener('click', function () {
-    document.querySelector('body').style.background = "url('./img/background 2 powerpoint.png') /contain";
+    document.querySelector('body').style.background = "url('../img/background 2 powerpoint.png') /contain";
     alert('Jij bent zo ver gekomen maar het is nog niet vorbij snel anders reed jij het niet.')
 
     alert('Jij krijgt 5 letters en daar moet jij een word van maken.')
