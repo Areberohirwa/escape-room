@@ -1,11 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Escape room 1</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        body{
+            background-image: url(/img/background\ powerpoint.png);
+        }
+    </style>
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <h1>Badkamer</h1>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <div class="escape-room-1 buttons">
+                <button class="escape-room-1-door" disabled>deur</button>
+                <button class="escape-room-1-locker" disabled>Kluisje</button>
+                <button class="escape-room-1-locker-2" disabled>kast</button>
+                <a class="escape-room-1-leave-room" href="newindex.html">Ga door</a>
+            </div>
+            <div class="input">
+                <input type="text" name="password" id="password-name" placeholder="Type het Verborgen woord in">
+                <button id="password-name-submit-button">Submit</button>
+            </div>
+            <img src="/img/photo key 1.png" class="locker-1-key" alt="Locker-1-key">
+            <img src="/img/photo key 2.png" class="locker-2-key" alt="locker-2-key">
+
+            <p id="demo-message-hidden-password">Saige Fuentes</p>
+        </article>
+    </main>
+    <footer></footer>
+    <script src="JS/main.js"></script>
 </body>
+
 </html>
